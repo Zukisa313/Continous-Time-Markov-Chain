@@ -36,14 +36,14 @@ pip install numpy matplotlib scipy
 
 ## Summary of Questions Answered
 
-### Question 4: Poisson Process
+### Question 1: Poisson Process
 
 This section explores a Poisson process $N_t$ with rate $\alpha = 0.5$ and $N_0 = 0$.
 * **(a, c)** Simulates and plots 10 trajectories using both the **discretized-time** and **random-jump-time** methods.
 * **(b, d)** Computes and plots the histogram of the process value at $t=10$, $N_{10}$, for both methods, comparing the simulation results to the theoretical Poisson distribution.
 * **(e)** Provides a qualitative comparison of the two simulation methods, discussing their efficiency and accuracy.
 
-### Question 5: Absorbing State in a Birth-Death Process
+### Question 2: Absorbing State in a Birth-Death Process
 
 This section analyzes a birth-death process $X_t$ with a birth rate $\alpha = 0.5$, a death rate $\beta = 1.0$, and an absorbing state at 0.
 * **(a)** Generates 20 trajectories starting from $X_0 = 10$ until they are absorbed at state 0.
